@@ -1,5 +1,5 @@
 {
-  "name": "jseed",
+  "name": "TODO-TDD",
   "version": "1.0.0",
   "description": "A TODO app following the test driven development patterns",
   "main": "index.js",
