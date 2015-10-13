@@ -1,0 +1,36 @@
+{
+  "name": "jseed",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Joseph22/TODO-TDD",
+  "authors": [
+    "Joseph Perez"
+  ],
+  "description": "A TODO app following the test driven development patterns",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "browserify",
+    "angularjs",
+    "seed",
+    "template"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "jquery": "~2.1.4",
+    "es5-shim": "~4.1.13",
+    "bootstrap": "~3.3.5",
+    "angular-bootstrap": "~0.13.4",
+    "angular-mocks": "~1.4.7"
+  }
+}
