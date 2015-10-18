@@ -183,6 +183,7 @@ gulp.task('test', ['browserify-tests'], function(done) {
 
 gulp.task('tdd', ['browserify-tests'], function(done) {
   gulp.watch([
+    'app/js/**/*.js',
     'app/tests/unit/**/*.js'
   ], ['browserify-tests']);
 

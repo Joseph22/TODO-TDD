@@ -9,15 +9,15 @@ var angular = require('angular');
 require('angular-route');
 require('angular-bootstrap');
 
-var app = angular.module('app', [ 'ngRoute', 'ui.bootstrap' ]);
+var app = angular.module('todo', [ 'ngRoute', 'ui.bootstrap' ]);
 
 app.constant('VERSION', require('../../package.json').version);
 
 //my modules
-require('./services');
+//require('./services');
 require('./controllers');
-require('./directives');
-require('./filters');
+//require('./directives');
+//require('./filters');
 
 app.config(function($routeProvider) {
 

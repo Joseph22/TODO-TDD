@@ -32,7 +32,8 @@
     "jquery": "./vendor/jquery/dist/jquery.js",
     "es5-sham": "./vendor/es5-shim/es5-sham.js",
     "es5-shim": "./vendor/es5-shim/es5-shim.js",
-    "angular-bootstrap": "./vendor/angular-bootstrap/ui-bootstrap-tpls.js"
+    "angular-bootstrap": "./vendor/angular-bootstrap/ui-bootstrap-tpls.js",
+    "app": "./app/js/app.js"
   },
   "homepage": "https://github.com/Joseph22/TODO-TDD#readme",
   "devDependencies": {
