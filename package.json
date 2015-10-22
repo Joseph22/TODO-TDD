@@ -62,5 +62,8 @@
     "karma-jasmine": "^0.3.6",
     "protractor": "^2.3.0",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "gulp-connect": "^2.2.0"
   }
 }

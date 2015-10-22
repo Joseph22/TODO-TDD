@@ -12,10 +12,24 @@
 
       <div class="content" ng-app="todo">
         <div ng-controller='TodoController'>
+          <div class="add">
+            <input type="text" ng-model="addText" />
+            <button ng-click="add(addText)">Add</button>
+          </div>
 
+          <div class="list">
+            <ul ng-repeat="item in list">
+               <li>
+                 <span>{{item}}</span>
+                 <span>
+                   <button ng-click="remove(item)">Del</button>
+                 </span>
+               </li>
+            </ul>
+          </div>
         </div>
       </div>
-
+      
       <script src="dist/js/app.js" type="text/javascript"></script>
   </body>
 </html>
